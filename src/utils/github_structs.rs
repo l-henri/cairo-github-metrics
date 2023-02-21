@@ -6,6 +6,12 @@ pub struct CairoRepos {
     pub repos: Vec<String>,
 }
 
+#[derive(Debug)]
+pub struct Starker {
+    pub login: String,
+    pub contributions: u64,
+}
+
 #[derive(Deserialize, Debug)]
 pub struct Contributor {
     login: String,
@@ -29,7 +35,7 @@ pub struct Contributor {
     contributions: i64,
 }
 
-pub type Contributors = Vec<Contributor>;
+// pub type Contributors = Vec<Contributor>;
 
 #[derive(Deserialize, Debug)]
 pub struct User {

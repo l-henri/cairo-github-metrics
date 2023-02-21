@@ -34,3 +34,10 @@ Use `https://api.github.com/users/{login}`. E.g.,  `https://api.github.com/users
 
 Get:
 * `followers`: e.g, `47`.
+
+
+### 5. Others
+1. link del repo, 
+2. el nombre de quien lo creo, 
+3. el numero de estrellas, y 
+4. idealmente - la lista de todos los que hicieron un commit
